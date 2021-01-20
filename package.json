@@ -1,0 +1,32 @@
+{
+    "//1": "describes your app and its dependencies",
+    "//2": "https://docs.npmjs.com/files/package.json",
+    "//3": "updating this file will download and update your packages",
+    "name": "applybot",
+    "version": "1.0.0",
+    "description": "Application bot",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "better-sqlite3": "^7.1.0",
+        "bufferutil": "^4.0.2",
+        "discord.js": "^12.0.2",
+        "discord.js-light": "^3.5.0",
+        "erlpack": "github:discord/erlpack",
+        "lodash": "^4.17.15",
+        "request": "^2.88.2",
+        "sqlite3": "^5.0.0",
+        "then-request": "^6.0.2",
+        "utf-8-validate": "^5.0.3",
+        "zlib-sync": "^0.1.7"
+    },
+    "engines": {
+        "node": "14.x"
+    },
+    "keywords": [
+        "node",
+        "discord"
+    ]
+}
